@@ -1,0 +1,1 @@
+This repository contains various research notebooks that I use to explore various ideas. The notebooks are organized by topic and can be used as a starting point for your own research projects. Feel free to clone this repository and start exploring the notebooks!

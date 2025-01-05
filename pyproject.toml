@@ -1,0 +1,24 @@
+[project]
+name = "research"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "arxiv",
+  "ipykernel",
+  "jupyter",
+  "jupyterlab",
+  "ipython",
+  "python-dotenv",
+  "pandas",
+  "requests",
+  "matplotlib",
+  "pip",
+  "openbb",
+  "langchain-openai",
+  "langchain-ollama",
+  "langchain-core",
+  "langchain-community",
+  "langgraph",
+]
