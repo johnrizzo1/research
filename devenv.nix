@@ -9,21 +9,21 @@ let
 in {
   packages = with mypkgs; [ 
     git
-    (python3.withPackages (pkgs-python: with pkgs-python; [
-      arxiv
-      ipykernel
-      jupyter
-      jupyterlab
-      ipython
-      python-dotenv
-      pandas
-      requests
-      matplotlib
-      langchain-openai
-      langchain-ollama
-      langchain-community
-      pip
-    ]))
+    # (python3.withPackages (pkgs-python: with pkgs-python; [
+    #   arxiv
+    #   ipykernel
+    #   jupyter
+    #   jupyterlab
+    #   ipython
+    #   python-dotenv
+    #   pandas
+    #   requests
+    #   matplotlib
+    #   langchain-openai
+    #   langchain-ollama
+    #   langchain-community
+    #   pip
+    # ]))
   ];
   languages.python.enable = true;
   languages.python.package = mypkgs.python3;
