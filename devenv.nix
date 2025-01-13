@@ -29,8 +29,9 @@ in {
   languages.python.package = mypkgs.python3;
   languages.python.uv.enable = true;
   languages.python.venv.enable = true;
+
   # https://devenv.sh/services/
-  # services.postgres.enable = true;
+  services.postgres.enable = true;
 
   enterShell = ''
     git --version
